@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Camiseta Galaxia Ocasional",
+    "price": 25,
+    "photo": "src/img/1CamisetaGalaxiaOcasional.png"
+  },
+  {
+    "id": 2,
+    "name": "Camiseta Sistema Solar ",
+    "price": 30,
+    "image": "https://img.ltwebstatic.com/images3_acp/2022/11/25/166836712200e00c8ae11f81191cydxg.webp"
+  },
+  {
+    "id": 3,
+    "name": "Camiseta Astronauta na Lua",
+    "price": 25,
+    "image": "src/img/3CamisetaAstronautaLua.png"
+  },
+  {
+    "id": 4,
+    "name": "Camiseta Planeta Colorido",
+    "price": 42,
+    "image": "src/img/4CamisetaPlanetaColorido.png"
+  },
+  {
+    "id": 5,
+    "name": "Camisa Espaço com Planetas e Astronauta",
+    "price": 51,
+    "image": "src/img/5CamisaEspaçoSideral.png"
+  },
+  {
+    "id": 6,
+    "name": "Camiseta ombro caído 2 em 1 Gráfico sol e lua",
+    "price": 69,
+    "image": "src/img/6CamisetaSolLua.png"
+  }
+]

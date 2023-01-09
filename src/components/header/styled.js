@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledHeader = styled.div`
 width: 100vw;
 height: 10vh;
-background-color: #282b75;
+background: radial-gradient(circle, rgba(12,31,128,1) 0%, rgba(207,52,159,1) 100%);
 color: bisque;
 display: flex;
 justify-content: space-between;

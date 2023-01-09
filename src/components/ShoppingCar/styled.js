@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledFilter = styled.div`
+export const StyledShoppingCar = styled.div`
 width: 15vw;
 border: solid 3px;
 border-radius: 15px;

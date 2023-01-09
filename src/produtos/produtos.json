@@ -2,37 +2,43 @@
   {
     "id": 1,
     "name": "Camiseta Galaxia Ocasional",
-    "price": 25,
-    "photo": "src/img/1CamisetaGalaxiaOcasional.png"
+    "price": 36.71,
+    "description": "Estilo casual, gola redonda, elasticidade baixa e 60% algodão e 40% poliéster" ,
+    "image": "https://github.com/marcusvrr/projeto-frontendreact/blob/barbosa-marcusv-rrodrigues1/src/img/1CamisetaGalaxiaOcasional.png?raw=true"
   },
   {
     "id": 2,
     "name": "Camiseta Sistema Solar ",
-    "price": 30,
-    "image": "https://img.ltwebstatic.com/images3_acp/2022/11/25/166836712200e00c8ae11f81191cydxg.webp"
+    "price": 30.12,
+    "description": "Estilo casual, gola redonda, elasticidade baixa e 60% algodão e 40% poliéster" ,
+    "image": "https://github.com/marcusvrr/projeto-frontendreact/blob/barbosa-marcusv-rrodrigues1/src/img/2CamisetaSistemaSolar.png?raw=true"
   },
   {
     "id": 3,
     "name": "Camiseta Astronauta na Lua",
-    "price": 25,
-    "image": "src/img/3CamisetaAstronautaLua.png"
+    "price": 29.74,
+    "description": "Estilo casual, gola redonda, elasticidade baixa e 60% algodão e 40% poliéster" ,
+    "image": "https://github.com/marcusvrr/projeto-frontendreact/blob/barbosa-marcusv-rrodrigues1/src/img/3CamisetaAstronautaLua.png?raw=true"
   },
   {
     "id": 4,
     "name": "Camiseta Planeta Colorido",
-    "price": 42,
-    "image": "src/img/4CamisetaPlanetaColorido.png"
+    "price": 42.28,
+    "description": "Estilo casual, gola redonda, elasticidade baixa e 92% Poliéster, 8% Elastano" ,
+    "image": "https://github.com/marcusvrr/projeto-frontendreact/blob/barbosa-marcusv-rrodrigues1/src/img/4CamisetaPlanetaColorido.png?raw=true"
   },
   {
     "id": 5,
     "name": "Camisa Espaço com Planetas e Astronauta",
-    "price": 51,
-    "image": "src/img/5CamisaEspaçoSideral.png"
+    "price": 51.11,
+    "description": "Estilo casual, gola redonda, elasticidade média e 60% algodão e 40$ poliéster" ,
+    "image": "https://github.com/marcusvrr/projeto-frontendreact/blob/barbosa-marcusv-rrodrigues1/src/img/5CamisaEspa%C3%A7oSideral.png?raw=true"
   },
   {
     "id": 6,
     "name": "Camiseta ombro caído 2 em 1 Gráfico sol e lua",
-    "price": 69,
-    "image": "src/img/6CamisetaSolLua.png"
+    "price": 69.63,
+    "description": "Estilo casual, gola redonda, elasticidade baixa e 60% algodão e 40$ poliéster" ,
+    "image": "https://github.com/marcusvrr/projeto-frontendreact/blob/barbosa-marcusv-rrodrigues1/src/img/6CamisetaSolLua.png?raw=true"
   }
 ]

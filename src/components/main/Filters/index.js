@@ -22,17 +22,17 @@ function Filters (props) {
         <h2>Filtrar por:</h2>
         <div>
         <select value={props.ordem} onChange={onChangeOrdem} className="boxcentral-topo-select">
-          <option value="">Ordenar por</option>
-          <option value="Maior">Preço: do maior para o menor</option>
-          <option value="Menor">Preço: do menor para o maior</option>
+          <option value="none">Ordenar por</option>
+          <option value="crescente">Preço: do maior para o menor</option>
+          <option value="decrecente">Preço: do menor para o maior</option>
         </select>
       </div>
         <p>Busca por nome:</p>
         <input type="text" value={props.pesquisa} onChange={handleNomeSearch} placeholder="Produto"/>
         <p>Menor Preço:</p>
-        <input type="text" value={props.ValorMinimo} onChange={handlePrecoMin} placeholder="R$ 25.00"/>
+        <input type="number" value={props.ValorMinimo} onChange={handlePrecoMin} placeholder="R$ 25.00"/>
         <p>Maior Preço:</p>
-        <input type="text" value={props.ValorMaximo} onChange={handlePrecoMax} placeholder="R$ 70.00" />
+        <input type="number" value={props.ValorMaximo} onChange={handlePrecoMax} placeholder="R$ 70.00" />
         </StyledFilter>
     )
 }

@@ -1,16 +1,26 @@
 import React from "react";
 import { ButtonAdicionar, CardContainer, CardDescricao, Imagem } from "./styled";
 
+function CardProduct({item, listaDeCompra}) {
+  function addCarrinho () {
+    const produtoCarrinho = {
+      id:item.id,
+      name:item.name,
+      preco:item.price,
+      precoTotal: item.price *1, quantidade:1
+    } 
+    listaDeCompra(produtoCarrinho)
+  }
+  
 
-function CardProduct(props) {
     return (
       <CardContainer>
-        <Imagem src={props.image} />
+        <Imagem src={item.image} />
         <CardDescricao>
-          <h4>{props.name}</h4>
-          <h5>R$:{props.preco}</h5>
-          <p>{props.descricao}</p>
-          <ButtonAdicionar onClick={()=>props.listaDeCompra(props.name)}>Adicionar ao Carrinho</ButtonAdicionar>
+          <h4>{item.name}</h4>
+          <h5>R$:{item.price}</h5>
+          <p>{item.description}</p>
+          <ButtonAdicionar onClick={()=>addCarrinho()}>Adicionar ao Carrinho</ButtonAdicionar>
         </CardDescricao>
       </CardContainer>
     );

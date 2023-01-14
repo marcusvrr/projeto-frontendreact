@@ -3,9 +3,9 @@ import CardProduct from "../ProductCard/ProductCard";
 import { MeusProdutos, StyledMain } from "./styled";
 import Filters from "./Filters";
 import ShoppingCar from "../ShoppingCar";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-function Produtos() {
+function Produtos(props) {
   const [pesquisa, setPesquisa] = useState("")
   const [valorMinimo, setValorMinimo] = useState("")
   const [valorMaximo, setValorMaximo] = useState("")
@@ -13,9 +13,42 @@ function Produtos() {
   const [carrinho, setCarrinho] = useState([])
 
  function listaDeCompra (objeto) {
-  setCarrinho([...carrinho, objeto])
+  for (const item of carrinho) {
+    if (item.id===objeto.id) {
+      objeto.quantidade+=item.quantidade
+      objeto.precoTotal+=item.precoTotal
+    }
+  }
+  const novoCarrinho = carrinho.filter((item)=>{
+    return item.id!==objeto.id
+  })
+  novoCarrinho.unshift(objeto)
+  setCarrinho(novoCarrinho)
   console.log(objeto);
  }
+ useEffect(() => {
+  if (carrinho.length > 0) {
+    const carrinhoString = JSON.stringify(carrinho);
+    localStorage.setItem('carrinho', carrinhoString)
+  }   
+}, [carrinho]);
+
+useEffect(() => {
+  const carrinhoBuscar = localStorage.getItem('carrinho')
+  const carrinhoArray = JSON.parse(carrinhoBuscar);
+  if (carrinhoArray) {
+    setCarrinho(carrinhoArray);
+  }
+}, []);
+
+ const removerItem = (objeto)=>{
+  const novoCarrinho = carrinho.filter((item)=>{
+    return item.id!==objeto.id
+  })
+  setCarrinho(novoCarrinho)
+ }
+
+
  const sortMethods = {
   none: { method: (a, b) => (a.id - b.id) },
   crescente: { method: (a, b) => (a.price > b.price ? 1 : -1) },
@@ -58,7 +91,9 @@ function Produtos() {
       <MeusProdutos>{listaProdutos}</MeusProdutos>
       <ShoppingCar
       carrinho={carrinho}
-      setCarrinho={setCarrinho} />
+      setCarrinho={setCarrinho}
+      removerItem={removerItem}
+      setPage={props.setPage} />
     </StyledMain>
   );
 

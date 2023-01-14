@@ -16,4 +16,5 @@ grid-template-columns: repeat(4, 1fr);
 gap: 16px;
 padding: 16px;
 background-color: snow;
+min-width: 60vw;
 `;

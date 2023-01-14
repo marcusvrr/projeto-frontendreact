@@ -7,3 +7,11 @@ border-radius: 15px;
 background: radial-gradient(circle, rgba(225,113,232,0.8379726890756303) 0%, rgba(70,117,242,0.8575805322128851) 100%);
 color: snow;
 `
+export const ButtonFinalizar = styled.button`
+  width: 100px;
+  background-color: red;
+  align-self: left;
+  margin-top: 10px;
+  border-radius: 15px;
+  color:snow
+`;

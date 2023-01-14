@@ -1,5 +1,5 @@
 import React from "react";
-import { ButtonAdicionar, CardContainer, CardDescricao, Imagem } from "./styled";
+import {  CardContainer, CardDescricao, Imagem } from "./styled";
 
 function CardProduct({item, listaDeCompra}) {
   function addCarrinho () {
@@ -7,7 +7,8 @@ function CardProduct({item, listaDeCompra}) {
       id:item.id,
       name:item.name,
       preco:item.price,
-      precoTotal: item.price *1, quantidade:1
+      precoTotal: item.price *1,
+      quantidade:1
     } 
     listaDeCompra(produtoCarrinho)
   }
@@ -20,7 +21,7 @@ function CardProduct({item, listaDeCompra}) {
           <h4>{item.name}</h4>
           <h5>R$:{item.price}</h5>
           <p>{item.description}</p>
-          <ButtonAdicionar onClick={()=>addCarrinho()}>Adicionar ao Carrinho</ButtonAdicionar>
+          <button onClick={()=>addCarrinho()}>Adicionar ao Carrinho</button>
         </CardDescricao>
       </CardContainer>
     );

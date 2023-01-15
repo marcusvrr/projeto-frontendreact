@@ -1,12 +1,14 @@
 import { LogoContainer, StyledHeader, StyledName, ContainerCarrinho } from "./styled"
 
 
-function Header() {
+function Header(props) {
+    
+
     return (
         <StyledHeader >
-            <LogoContainer>
+            <LogoContainer disabled={props.page===1} onClick={()=>{props.setPage(1)}} >
                 <img src="https://cdn-icons-png.flaticon.com/512/1789/1789725.png" alt="Logo Planeta" />
-                <StyledName ><h1>Labe camisetas Espaciais </h1>
+                <StyledName ><h1>E-commerce Camisetas Espaciais </h1>
                     <h5>Camisetas de outro mundo para você</h5>
                 </StyledName >
 

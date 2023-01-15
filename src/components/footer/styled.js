@@ -1,20 +1,20 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.div`
-display: flex;
-gap: 10px;
-justify-content: left;
-
-font-size: 25px;
+font-size: 23px;
 color: snow;
 background: black;
 height: 5vh;
 a{
     color: snow;
+    display: flex;
+    gap: 8px;
+    justify-content: left;
+    align-items: center;
 }
 img{
-    height: 50px;
-    width: 50px;
+    height: 45px;
+    width: 45px;
 }
 display:flex;
 `

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledMain = styled.div`
-height: 88vh;
+height: 86vh;
 display: flex;
 width:100vw;
 justify-content: space-between;

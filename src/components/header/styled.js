@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledHeader = styled.div`
 width: 100vw;
-height: 10vh;
+height: 9vh;
 background: radial-gradient(circle, rgba(12,31,128,1) 0%, rgba(207,52,159,1) 100%);
 color: bisque;
 display: flex;
@@ -25,26 +25,13 @@ display: flex;
 flex-direction: column;
 padding-top: 7px;
 `
-export const InputContainer = styled.div`
-
-input{
-    width: 25vw;
-    height: 5vh;
-    font-size: 20;
-    line-height: 10px;
-}
-img{
-    width: 45px;
-    height: 45px;
-}
-`
 export const ContainerCarrinho = styled.div`
 color: bisque;
 display:flex;
-padding-left: 2vw;
+margin-right: 5vw;
 img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 
 `

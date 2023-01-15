@@ -16,43 +16,43 @@
   {
     "id": 3,
     "name": "Camiseta Astronauta na Lua",
-    "price": 29.70,
+    "price": 29.74,
     "description": "Estilo casual, gola redonda, elasticidade baixa e 60% algodão e 40% poliéster" ,
     "image": "https://github.com/marcusvrr/projeto-frontendreact/blob/barbosa-marcusv-rrodrigues1/src/img/3CamisetaAstronautaLua.png?raw=true"
   },
   {
     "id": 4,
     "name": "Camiseta Planeta Colorido",
-    "price": 42.20,
-    "description": "Estilo casual, gola redonda, elasticidade baixa e 92% Poliéster, 8% Elastano" ,
+    "price": 42.23,
+    "description": "Estilo casual, gola redonda, elasticidade baixa e 60% algodão e 40% poliéster" ,
     "image": "https://github.com/marcusvrr/projeto-frontendreact/blob/barbosa-marcusv-rrodrigues1/src/img/4CamisetaPlanetaColorido.png?raw=true"
   },
   {
     "id": 5,
     "name": "Camisa Espaço com Planetas e Astronauta",
-    "price": 51.10,
-    "description": "Estilo casual, gola redonda, elasticidade média e 60% algodão e 40% poliéster" ,
+    "price": 51.19,
+    "description": "Estilo casual, gola colarinho, não elastico e 92% poliéster e 8% Elastano" ,
     "image": "https://github.com/marcusvrr/projeto-frontendreact/blob/main/src/img/5CamisaEspa%C3%A7oSideral.png?raw=true"
   },
   {
     "id": 6,
-    "name": "Camiseta ombro caído 2 em 1 Gráfico sol e lua",
-    "price": 69.60,
-    "description": "Estilo casual, gola redonda, elasticidade baixa e 60% algodão e 40% poliéster" ,
+    "name": "Camiseta ombro caído 2 em 1 sol e luas",
+    "price": 69.67,
+    "description": "Estilo casual, gola redonda, elasticidade baixa e 70% algodão e 30% poliéster" ,
     "image": "https://github.com/marcusvrr/projeto-frontendreact/blob/barbosa-marcusv-rrodrigues1/src/img/6CamisetaSolLua.png?raw=true"
   },
   {
     "id": 7,
     "name": "Camiseta retangulos planetas",
-    "price": 57.10,
+    "price": 57.15,
     "description": "Estilo casual, gola redonda, elasticidade baixa e 95% Algodão e 5% Elastano" ,
-    "image": "https://github.com/marcusvrr/projeto-frontendreact/blob/barbosa-marcusv-rrodrigues1/src/img/6CamisetaSolLua.png?raw=true"
+    "image": "https://github.com/marcusvrr/projeto-frontendreact/blob/barbosa-marcusv-rrodrigues1/src/img/7CamisetaQuadroPlanetas.png?raw=true"
   },
   {
     "id": 8,
     "name": "Camiseta Gato Espacial",
     "price": 24.89,
-    "description": "Estilo básico, gola redonda, elasticidade baixa e 80% algodão e 20% poliéster" ,
-    "image": "https://github.com/marcusvrr/projeto-frontendreact/blob/barbosa-marcusv-rrodrigues1/src/img/3CamisetaAstronautaLua.png?raw=true"
+    "description": "Estilo básico, gola redonda, elasticidade média e 80% algodão e 20% poliéster" ,
+    "image": "https://github.com/marcusvrr/projeto-frontendreact/blob/barbosa-marcusv-rrodrigues1/src/img/8CamisetaGatoEspacial.png?raw=true"
   }
 ]

@@ -17,7 +17,7 @@ Button{
 }
 button:hover{
         cursor: hover;
-        background-color: lightpink;
+        background-color: #DC83E7;
         transform: scale(1.1);
     }
 `;

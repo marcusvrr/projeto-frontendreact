@@ -1,4 +1,4 @@
-import { StyledFilter } from "./styled"
+import { StyledFilter, Buttonstyled } from "./styled"
 
 
 function Filters (props) {
@@ -17,6 +17,15 @@ function Filters (props) {
     const handlePrecoMax = (event)=>{
         props.setValorMaximo(event.target.value)
     }
+    
+    function limparFiltros () {
+      props.setPesquisa("")
+      props.setValorMinimo("")
+      props.setValorMaximo("")
+      props.setOrdem("none")
+      
+    }
+
     return(
         <StyledFilter>
         <h2>Filtrar por:</h2>
@@ -33,6 +42,10 @@ function Filters (props) {
         <input type="number" value={props.ValorMinimo} onChange={handlePrecoMin} placeholder="R$ 25.00"/>
         <p>Maior Preço:</p>
         <input type="number" value={props.ValorMaximo} onChange={handlePrecoMax} placeholder="R$ 70.00" />
+        <Buttonstyled>
+          <button onClick={()=>{limparFiltros()}} >Limpar Filtros</button>  
+        </Buttonstyled>
+        
         </StyledFilter>
     )
 }

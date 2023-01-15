@@ -12,3 +12,7 @@ input{
         height: 20px;
 }
 `
+export const Buttonstyled = styled.div`
+margin-top: 10px;
+
+`

@@ -12,7 +12,8 @@ function App() {
   return (
     <div>
       <GlobalStyle />
-      <Header />
+      <Header page={page}
+      setPage={setPage} />
       {
         page===1? <Produtos setPage={setPage} />: <BuyPage setPage={setPage} />
       }

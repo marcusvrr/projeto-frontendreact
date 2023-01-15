@@ -2,6 +2,10 @@
 ```
  Marcus Vinicius Ramos Rodrigues
  link para o surge do projeto:
+ 
+ https://marcus-ecommerc-react-frontend.surge.sh
+
+ https://github.com/marcusvrr/projeto-frontendreact/blob/main/src/img/printDaPagina.png?raw=true
 
 ```
 ***
